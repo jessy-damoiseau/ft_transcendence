@@ -1,0 +1,31 @@
+.container_firstconnexion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #000000;
+}
+
+.text-princ-welcome {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.firstconnexion_text {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.firstlogin-text {
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+}

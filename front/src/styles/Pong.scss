@@ -1,0 +1,240 @@
+@use "./variables";
+
+#currentGame {
+  width: 60%;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color: white !important;
+}
+
+#game-title {
+  margin-top: 25px;
+  color: white !important;
+  font-size: 40px !important;
+}
+
+#main > * {
+  color: white !important;
+  width: 80%;
+  height: 100%;
+}
+
+.button-match-making {
+  width: 100%;
+  height: 100%;
+  min-width: 150px;
+  display: flex;
+  cursor: pointer;
+  background-color: rgb(202, 202, 202);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-root {
+  display: flex;
+  margin-bottom: -30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 80px;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+
+
+.form-select {
+  width: 100%;
+  height: 100%;
+  min-width: 120px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 2px;
+  align-items: center;
+}
+
+.choosing-game {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.score_player {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  display: flex;
+  font-weight: 500;
+  font-size: 80px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-score {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black !important;
+}
+
+.name_player_left {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.name_player_right {
+  flex: 0 0 auto;
+  display: flex;
+}
+
+.canvas-name-player {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: black !important;
+  width: 60%;
+}
+
+.container-score-and-versus {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  color: black !important;
+}
+
+.container-score-player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: black !important;
+}
+
+#canvas {
+  background: rgb(255, 255, 255) !important;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 4px;
+  border: 0.4rem solid rgb(0, 0, 0);
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+  align-items: center;
+  display: flex;
+  transition-duration: 1s;
+  width: 100%;
+  height: 120%;
+  margin-bottom: 30px;
+}
+
+.GameMode-title {
+  color: black !important;
+  font-size: 25px !important;
+  font-weight: 900 !important;
+  font-family: variables.$basic-font !important;
+  font-style: normal !important;
+}
+
+#form-select-gamemode {
+  width: 25% !important;
+  text-align: center !important;
+  position: sticky;
+  font-weight: 900 !important;
+}
+
+#form-select,
+#search-button,
+#search-button2 {
+  width: 35% !important;
+  text-align: center !important;
+  position: sticky;
+  font-weight: 900 !important;
+}
+
+#scores > * {
+  font-size: 34px !important;
+  font-weight: 900 !important;
+  font-family: variables.$basic-font !important;
+  font-style: normal !important;
+}
+
+.form--label {
+  font-size: 24px !important;
+  text-align: center !important;
+  font-family: "Arial", sans-serif !important;
+  font-weight: 900 !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+// PONG CSS BELOW:
+.game--li {
+  display: inline-block;
+}
+
+.versusLogo {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#victoryMessage {
+  color: black !important;
+  font-size: 8vh !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#offline {
+  color: rgb(0, 0, 0) !important;
+  font-size: 8vh !important;
+  font-weight: bold;
+}
+
+.container-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-canva {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 750px;
+  margin: auto;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
