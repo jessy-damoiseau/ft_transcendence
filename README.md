@@ -1,4 +1,4 @@
-## Project Ft_transcendence
+## Project Ft_transcendence | Status : Finish
 
 (https://badge42.vercel.app/api/v2/cl4cqx7ks006409jn1s8sg534/project/2516521)](https://github.com/JaeSeoKim/badge42)
 
