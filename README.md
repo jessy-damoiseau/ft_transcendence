@@ -37,4 +37,4 @@ https://user-images.githubusercontent.com/55356071/206004348-0e08fcdc-e032-4d50-
 **make re**: make fclean + make d
 
 ### Credit
-@[Bmaudet](https://github.com/Draak-Z) @[Jcluzet](https://github.com/JCluzet)
+@[jdamoise](https://github.com/jessy-damoiseau) @[Bmaudet](https://github.com/Draak-Z) @[Jcluzet](https://github.com/JCluzet)
